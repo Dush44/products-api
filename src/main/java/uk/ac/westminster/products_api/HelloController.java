@@ -27,7 +27,7 @@ public class HelloController {
                         @RequestParam(defaultValue = "Admin") String role) {
         return "<html>" +
                 "<body>" +
-                "  <h2>Welcome to the Admin portal, " + username + "! Your access level is: " + role + "</h2>" +
+                "  <h2>Welcome to the Admin portal, " + usernamee + "! Your access level is: " + role + "</h2>" +
                 "  <form action='/admin' method='GET'>" +
                 "    <label for='username'>Username:</label><br>" +
                 "    <input type='text' id='username' name='username' value='" + username + "'><br><br>" +
