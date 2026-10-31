@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>uk.ac.westminster</groupId>
-    <artifactId>products-api</artifactId>
+    <artifactId>lecture_G4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>products-api</name>
-    <description>products-api</description>
+    <name>lecture_G4</name>
+    <description>lecture_G4</description>
     <url/>
     <licenses>
         <license/>
@@ -33,6 +33,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>3.1.0</version>
         </dependency>
 
         <dependency>
