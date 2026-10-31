@@ -3,6 +3,7 @@ package uk.ac.westminster.productsapi;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+//week 4 also included
 
 public class Product {
     private Long id;
