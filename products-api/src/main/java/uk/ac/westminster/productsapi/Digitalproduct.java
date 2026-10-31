@@ -16,6 +16,8 @@ public class Digitalproduct extends Product {
         this.fileSizeMB = fileSizeMB;
     }
 
+    //test
+
     public String getDownloadUrl() {
         return downloadUrl;
     }
